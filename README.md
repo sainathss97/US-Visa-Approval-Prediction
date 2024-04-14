@@ -27,3 +27,5 @@ conda create -n visa python=3.8 -y
 ```bash
 pip install -r requirements.txt
 ```
+
+## 3. Database MongoDb Free tier
