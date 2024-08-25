@@ -35,12 +35,12 @@ pip install -r requirements.txt
 
 ## 4. Workflow
 DATA Ingestion
-    1.Constant
-    2.entity>>config_entity
-    3.entity>>artifact_entity
-    4.component
-    5.pipeline
-    6.app.py 
+    1.Constant  "Declaration of Static variables in Proj"
+    2.entity>>config_entity "Managing Paths"
+    3.entity>>artifact_entity "Output from component"
+    4.component "stages like data acess , data transformations..."
+    5.pipeline "tackle above components in a single go"
+    6.app.py    "also known as demo.py -> runs the code whenever needed"
 
 
 ## enviormrnt Variables Setting 
