@@ -7,3 +7,5 @@ setup(
     author_email="sainath.ss97@gmail.com",
     packages=find_packages()
 )
+
+# setup()

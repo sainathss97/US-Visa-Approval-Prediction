@@ -1,4 +1,4 @@
-# This module contains the main function for data ingestion.
+from us_visa.pipeline.train_pipeline import TrainPipeLine
 
-from us_visa.components.data_ingestion import main
-main()
+pipeline = TrainPipeLine()
+pipeline.start_data_ingestion()
