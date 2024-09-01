@@ -50,8 +50,6 @@ pip install -r requirements.txt
         + Column length
         + Column exsist
         + Detect Data Drift
-        +
-        +
     2. entity>>config_entity "Managing Paths"
     3. entity>>artifact_entity "Output from component"
     4. component "stages like data acess , data transformations..."
