@@ -5,19 +5,30 @@
 ## Git Commands
 
 ```bash
-    git init
+  `  git init`
     
-    git add .
+  `  git add .`
      
-    git commit -m "Updated"
+   ` git commit -m "Updated"`
      
-    git push origin main
-```
+  `  git push origin main`
+`
 
-## enviormrnt Variables Setting
+## enviorment Variables Setting
 
-"export KEY = VALUE"
-    export MONGODB_URL="mongodb+srv://sainath:sainath@cluster0.1bixffs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+Export Enviorment variables before running the code. create them before hand.
+
+#### MONGODB_URL
+
+`export MONGODB_URL="mongodb+srv://<user>:<pass>..."`
+
+#### AWS_ACCESS_KEY_ID_ENV_KEY
+
+`export AWS_ACCESS_KEY_ID="<AWS_ACCESS_KEY>"`
+
+#### AWS_SECRET_ACCESS_KEY_ENV_KEY
+
+`export AWS_SECRET_ACCESS_KEY="<AWS_SECRET_ACCESS_KEY>"`
 
 ## SCHEMA yaml
 
@@ -67,18 +78,10 @@ pip install -r requirements.txt
 7. Prediction Pipeline, User App
 8. User App In Fast API
 
-### 5. Enviorment variables
+### 5. Running and web Interface
 
-Export Enviorment variables before running the code. create them before hand.
+check logs if there is any exception
 
-#### MONGODB_URL
+`python app.py`
 
-`export MONGODB_URL="mongodb+srv://<user>:<pass>..."`
-
-#### AWS_ACCESS_KEY_ID_ENV_KEY
-
-`export AWS_ACCESS_KEY_ID="<AWS_ACCESS_KEY>"`
-
-#### AWS_SECRET_ACCESS_KEY_ENV_KEY
-
-`export AWS_SECRET_ACCESS_KEY="<AWS_SECRET_ACCESS_KEY>"`
+`localhost:8080` -> in browser.
