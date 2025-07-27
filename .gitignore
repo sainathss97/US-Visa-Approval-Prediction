@@ -40,6 +40,7 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .nox/
+.bashrc
 .coverage
 .coverage.*
 .cache
@@ -152,3 +153,5 @@ cython_debug/
 #.idea/
 artifact/*
 logs/*
+MLOPS-us_visa_accessKeys.csv
+ENVIORMENT_VARS.md
