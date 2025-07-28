@@ -12,21 +12,21 @@
    ` git commit -m "Updated"`
      
   `  git push origin main`
-`
+```
 
 ## enviorment Variables Setting
 
 Export Enviorment variables before running the code. create them before hand.
 
-#### MONGODB_URL
+### MONGODB_URL
 
 `export MONGODB_URL="mongodb+srv://<user>:<pass>..."`
 
-#### AWS_ACCESS_KEY_ID_ENV_KEY
+### AWS_ACCESS_KEY_ID_ENV_KEY
 
 `export AWS_ACCESS_KEY_ID="<AWS_ACCESS_KEY>"`
 
-#### AWS_SECRET_ACCESS_KEY_ENV_KEY
+### AWS_SECRET_ACCESS_KEY_ENV_KEY
 
 `export AWS_SECRET_ACCESS_KEY="<AWS_SECRET_ACCESS_KEY>"`
 
